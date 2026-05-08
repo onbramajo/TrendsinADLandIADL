@@ -1,0 +1,364 @@
+Description: Revision of (Revision of (extract to measure trends on disabilities in us during 2000 and 2019))
+Samples selected:
+      2000 NHIS
+      2001 NHIS
+      2002 NHIS
+      2003 NHIS
+      2004 NHIS
+      2005 NHIS
+      2006 NHIS
+      2007 NHIS
+      2008 NHIS
+      2009 NHIS
+      2010 NHIS
+      2011 NHIS
+      2012 NHIS
+      2013 NHIS
+      2014 NHIS
+      2015 NHIS
+      2016 NHIS
+      2017 NHIS
+      2018 NHIS
+      2019 NHIS
+File Type:                    rectangular
+Case Selection:               No
+  Variable                         Columns        Len   2000    2001    2002    2003    2004    2005    2006    2007    2008    2009    2010    2011    2012    2013    2014    2015    2016    2017    2018    2019    
+  YEAR                         H   1-4            4     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  SERIAL                       H   5-10           6     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  STRATA                       H  11-14           4     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  PSU                          H  15-17           3     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  NHISHID                      H  18-31          14     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  HHWEIGHT                     H  32-37           6     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  PERNUM                       P  38-39           2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  NHISPID                      P  40-55          16     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  HHX                          P  56-62           7     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  FMX                          P  63-64           2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  PX                           P  65-66           2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  PERWEIGHT                    P  67-78          12     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  SAMPWEIGHT                   P  79-90          12     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  FWEIGHT                      P  91-102         12     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  ASTATFLG                     P 103              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  CSTATFLG                     P 104              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  AGE                          P 105-107          3     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  SEX                          P 108              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  RACENEW                      P 109-111          3     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  HISPYN                       P 112              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  USBORN                       P 113-114          2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  CITIZEN                      P 115              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  EDUC                         P 116-118          3     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  LANY                         P 119-120          2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LABATH                       P 121-122          2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LABED                        P 123              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LADRESS                      P 124-125          2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LAEAT                        P 126              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LATOILT                      P 127              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  FLCARRY                      P 128-129          2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  FLCLIMB                      P 130-131          2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       
+  LAHOME                       P 132              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LAWALK                       P 133              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  FLANY                        P 134-135          2     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  FLRELAX                      P 136              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  FLSOCIAL                     P 137              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  IMPMOB                       P 138              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LADL                         P 139              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LAIADL                       P 140              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LAMEMRY                      P 141              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LANOWORK                     P 142              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+  LAOTHER                      P 143              1     X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       .       
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+RECTYPE   Record type
+H         Household
+P         Person
+I         Injury
+X         Condition
+D         Dr. visits
+A         Hospital record
+M         Prescribed medicine
+O         Non-prescribed medicine
+S         X-ray record
+Z         Poison record
+V         Motor vehicle person accident
+G         Pregnancy
+Y         Soa/condtion
+L         Vitamin/mineral
+B         Disability condition
+
+ASTATFLG            Sample adult flag
+0                   NIU
+1                   Sample adult, has record
+2                   Sample adult, no record
+3                   Not selected as sample adult
+4                   No one selected as sample adult
+5                   Armed forces member
+6                   AF member, selected as sample adult
+
+CSTATFLG            Sample child flag
+0                   NIU
+1                   Sample child-has record
+2                   Sample child-no record
+3                   Not selected as sample child
+4                   No one selected as sample child
+5                   Emancipated minor
+
+SEX                 Sex
+1                   Male
+2                   Female
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+RACENEW             Self-reported Race (Post-1997 OMB standards)
+100                 White only
+200                 Black/African American only
+300                 American Indian/Alaska Native only
+400                 Asian only
+500                 Other Race and Multiple Race
+510                 Other Race and Multiple Race (2019-forward: Excluding American Indian/Alaska Native)
+520                 Other Race
+530                 Race Group Not Releasable
+540                 Multiple Race
+541                 Multiple Race (1999-2018: Including American Indian/Alaska Native)
+542                 American Indian/Alaska Native and Any Other Race
+997                 Unknown-Refused
+998                 Unknown-Not ascertained
+999                 Unknown-Don't Know
+
+HISPYN              Hispanic ethnicity, dichotomous
+1                   No, not of Hispanic ethnicity
+2                   Yes, of Hispanic ethnicity
+7                   Unknown--refused
+8                   Unknown--not ascertained
+9                   Unknown--don't know
+
+USBORN              Born in the United States
+10                  No
+11                  No, born in U.S. territory
+12                  No, born outside U.S. and U.S. territories
+20                  Yes, born in U.S.
+96                  NIU
+97                  Unknown-refused
+98                  Unknown-not ascertained
+99                  Unknown-don't know
+
+CITIZEN             U.S. citizenship
+1                   No, not U.S. citizen
+2                   Yes, U.S. citizen
+7                   Unknown--refused
+8                   Unknown--not ascertained
+9                   Unknown--don't know
+
+EDUC                Educational attainment
+000                 NIU
+100                 Grade 12 or less, no high school diploma or equivalent
+101                 Grade 8 or less (no further detail)
+102                 Never attended/kindergarten only
+103                 Grades 1-11 (no further detail)
+104                 Grade 1
+105                 Grade 2
+106                 Grade 3
+107                 Grade 4
+108                 Grade 5
+109                 Grade 6
+110                 Grade 7
+111                 Grade 8
+112                 Grade 9-12, no diploma (no further detail)
+113                 Grade 9
+114                 Grade 10
+115                 Grade 11
+116                 12th grade, no diploma
+200                 High school diploma or GED
+201                 High school graduate
+202                 GED or equivalent
+300                 Some college, no 4yr degree
+301                 Some college, no degree
+302                 AA degree: technical/vocational/occupational
+303                 AA degree: academic program
+400                 Bachelor's degree (BA,AB,BS,BBA)
+500                 Master's, Professional, or Doctoral Degree
+510                 Master's degree (MA,MS,Med,MBA)
+520                 Professional School or Doctoral degree (MD, DDS, DVM, JD, PhD, EdD)
+521                 Professional degree (MD,DDS,DVM,JD)
+522                 Doctoral degree (PhD, EdD)
+530                 Other degree
+996                 No degree, years of education unknown
+997                 Unknown--refused
+998                 Unknown--not ascertained
+999                 Unknown--don't know
+
+LANY                Has any activity limitation
+10                  Limited in any way
+20                  Not limited or unknown
+21                  Not limited in any way
+22                  Unknown if limited
+
+LABATH              Need help with bath/shower
+00                  NIU
+10                  No
+11                  Not need help
+12                  Doesn't do for other reason
+20                  Yes
+97                  Unknown--refused
+98                  Unknown--not ascertained
+99                  Unknown--don't know
+
+LABED               Need help in/out of bed or chairs
+0                   NIU
+1                   No
+2                   Yes
+3                   Doesn't do
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+LADRESS             Need help dressing
+00                  NIU
+10                  No
+11                  Doesn't do for other reason
+20                  Yes
+97                  Unknown--refused
+98                  Unknown--not ascertained
+99                  Unknown--don't know
+
+LAEAT               Need help eating
+0                   NIU
+1                   No
+2                   Yes
+3                   Doesn't do
+7                   Unknown--refused
+8                   Unknown--not ascertained
+9                   Unknown--don't know
+
+LATOILT             Need help using the toilet
+0                   NIU
+1                   No
+2                   Yes
+3                   Doesn't do
+7                   Unknown - refused
+8                   Unknown - not ascertained
+9                   Unknown - don't know
+
+FLCARRY             How difficult to carry 10 lb without special equipment
+00                  NIU
+10                  Not at all difficult
+20                  Some difficulty
+21                  Only a little difficult
+22                  Somewhat difficult
+30                  Very difficult/ a lot
+40                  Can't do at all/ completely unable
+50                  Do not do this activity
+97                  Unknown-refused
+98                  Unknown-not ascertained
+99                  Unknown-don't know
+
+FLCLIMB             How difficult to walk steps w/o special equipment
+00                  NIU
+10                  Not at all difficult
+20                  Some difficulty
+21                  Only a little difficult
+22                  Somewhat difficult
+30                  Very difficult/ a lot
+40                  Can't do at all/ completely unable
+50                  Do not do this activity
+97                  Unknown-refused
+98                  Unknown-not ascertained
+99                  Unknown-don't know
+
+LAHOME              Need help getting around in home
+0                   NIU
+1                   No
+2                   Yes
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+LAWALK              Difficulty walking without equipment
+0                   NIU
+1                   No
+2                   Yes
+3                   Doesn't do this activity
+7                   Unknown--refused
+8                   Unknown--not ascertained
+9                   Unknown--don't know
+
+FLANY               Has any functional limitation
+00                  NIU
+10                  Limited in any way
+90                  Not limited in any way or unknown
+91                  Not limited in any way
+99                  Unknown if limited
+
+FLRELAX             How difficult relaxing activities without special equipment
+0                   NIU
+1                   Not at all difficult
+2                   Only a little difficult
+3                   Somewhat difficult
+4                   Very difficult
+5                   Can't do at all
+6                   Do not do this activity
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+FLSOCIAL            How difficult social activities without special equipment
+0                   NIU
+1                   Not at all difficult
+2                   Only a little difficult
+3                   Somewhat difficult
+4                   Very difficult
+5                   Can't do at all
+6                   Do not do this activity
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+IMPMOB              Impaired mobility
+0                   NIU
+1                   No
+2                   Yes
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+LADL                Needs help with activities of daily living (ADL)
+0                   NIU
+1                   No
+2                   Yes
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+LAIADL              Needs help with instrumental activities of daily living (IADL)
+0                   NIU
+1                   No
+2                   Yes
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+LAMEMRY             Activities limited by difficulty remembering
+1                   No
+2                   Yes
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+LANOWORK            Unable to work due to health problem
+0                   NIU
+1                   No
+2                   Yes
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
+LAOTHER             Limited in any (other) way
+1                   No, not limited in any way
+2                   No, only limitation previously mentioned
+3                   Yes, limited in some other way
+7                   Unknown-refused
+8                   Unknown-not ascertained
+9                   Unknown-don't know
+
